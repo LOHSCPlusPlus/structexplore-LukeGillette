@@ -4,17 +4,18 @@ using namespace std;
 struct Point {
 	double x;
 	double y;
-	Point();
+	//Point();
 	Point(double xVal, double yVal);
 
 };
+/*
 Point::Point() {
 	// Normally, you do not print in a constructor
 	cout << "In the default constructor" << endl;
 	x = 0;
 	y = 0;
 }
-
+*/
 Point::Point(double xVal, double yVal) {
 	// Normally, you do not print in a constructor
 	cout << "In the other constructor" << endl;
